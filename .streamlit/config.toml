@@ -1,0 +1,13 @@
+# BioVault Streamlit configuration.
+#
+# This file only sets safe, project-appropriate defaults so the app
+# behaves consistently across different computers -- it does not
+# enable any network exposure, telemetry opt-in, or authentication.
+
+[server]
+# Matches app/config.py's MAX_UPLOAD_SIZE_MB (kept small since each
+# byte expands into 4 DNA bases during encoding).
+maxUploadSize = 2
+
+[browser]
+gatherUsageStats = false

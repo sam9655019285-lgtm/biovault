@@ -1,0 +1,12 @@
+# BioVault runtime dependencies (required to run: streamlit run app.py)
+streamlit>=1.30.0
+pandas>=2.0.0
+
+# Backend API dependencies (required to run: uvicorn backend.main:app --reload)
+fastapi>=0.110.0
+uvicorn>=0.29.0
+pydantic>=2.5.0
+httpx>=0.27.0
+
+# Dev/testing only (required to run: python -m pytest)
+pytest>=7.4.0
